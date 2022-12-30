@@ -1,0 +1,13 @@
+.booking{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bookingcont{
+    width: 90%;
+    background-color: #ffffff;
+    margin-top: 50px;
+    padding: 20px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+}

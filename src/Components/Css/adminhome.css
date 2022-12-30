@@ -1,0 +1,161 @@
+.Adminhome {
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+.homesidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+
+}
+
+
+
+.dashboardbody {
+    width: 80%;
+    background-color: rgba(239, 225, 253, 0.607);
+}
+
+.sidebartabs {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80.5%;
+    display: flex;
+    font-weight: 700;
+    padding: 16.25px 0;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.sidebartabs:hover {
+    background-color: rgba(239, 225, 253, 0.607);
+}
+
+.admintextpanel {
+    height: 9.5vh;
+    background: #193259;
+    color: white;
+    width: 90%;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.navbar {
+    width: 100%;
+    height: 13vh;
+    background: #ffffff;
+}
+
+.adminhome_body {
+    width: 100%;
+    min-height: 80vh;
+}
+
+.chartearn {
+    background-color: #ffffff;
+}
+
+.menubar {
+    margin-top: 20px;
+    font-size: 35px;
+    color: gray;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.navitems {
+    width: 12%;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navitem1 {
+    cursor: pointer;
+}
+
+.division1 {
+    display: flex;
+    width: 100%;
+    height: 43vh;
+}
+
+.displayers {
+    width: 35%;
+}
+
+.div1_chart {
+    width: 65%;
+}
+
+/* sidebar two css style here  */
+
+.homesidebarTwo {
+    display: none;
+
+}
+
+.admintextpanelTwo {
+    height: 9.5vh;
+    background: #193259;
+    color: white;
+    width: 90%;
+    font-size: 16px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.sidebardefault{
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    .homesidebar {
+        display: none;     
+    }
+
+    .homesidebarTwo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transition: 0.5s ease;
+    }
+    .dashboardbody {
+        width: 100%;
+        background-color: rgba(239, 225, 253, 0.607);
+    }
+    .navitems {
+        width: 25%;
+        margin-right: 20px;
+        margin-top: 20px;
+        color: gray;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sidebartabsTwo {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 100%;
+        display: flex;
+        font-weight: 700;
+        padding: 16.25px 0;
+        padding-left: 2rem;
+        cursor: pointer;
+        font-size: 10px;
+    }
+    
+    .sidebartabsTwo:hover {
+        background-color: rgba(239, 225, 253, 0.607);
+    }
+    .sidebardefault{
+        background-color: #193259;
+        display: none;
+    }
+}
